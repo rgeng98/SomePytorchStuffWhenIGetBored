@@ -1,0 +1,10 @@
+{
+    "n_inputs": 10,
+    "hidden_size" : 100,
+    "num_layers": 2,
+    "n_outputs": 2,
+    "drop": 0,
+    "optimizer": "Adam",
+    "criterion": "L1Loss",
+    "learning_rate": 0.1
+}
