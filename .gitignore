@@ -1,10 +1,10 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+*__pycache__/
 *.py[cod]
 *$py.class
 
 # Data set
-*.png
+starsGoalDatabase/
 *.pt
 *.pth
 # C extensions
