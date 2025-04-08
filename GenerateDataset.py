@@ -8,7 +8,7 @@ def on_press(key):
     if key.char == "q":
         SS = ImageGrab.grab()
         time = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
-        save_path = f"starsGoalDatabase/train/NoGoal/{time}.jpg"
+        save_path = f"starsGoalDatabase/train/Goal/{time}.jpg"
         SS.save(save_path)
 
 def on_release(key):
