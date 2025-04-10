@@ -49,7 +49,7 @@ if __name__ == "__main__":
         if torch.sigmoid(outputs.cpu()).detach().numpy()[0][0] > 0.5:
             time.sleep(0.1)
         else:
-            print("Big Black Veiny Goal")
+            print("Goal")
             socket.send_string(message)
             GPIO.output(outpin, GPIO.HIGH)
             sound = random.choice(sounds)
